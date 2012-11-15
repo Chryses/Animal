@@ -1,6 +1,18 @@
 
 public class Animal {
 	
+<<<<<<< HEAD
+	public void poke(int hardness){
+		if(hardness >= 0
+		&& hardness < 10){
+			System.out.println("What? Huh?");
+		}
+		
+		else if(hardness > 10){
+			System.out.println("Grrr");
+		}
+	}
+=======
 	String animalName;
 	
 	public Animal(String name){
@@ -30,4 +42,5 @@ public class Animal {
 			
 	}
 
+>>>>>>> 386d8c94a0a4a6f7335e9fda1533d93b013f7992
 }

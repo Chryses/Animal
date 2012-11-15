@@ -7,6 +7,9 @@ public class main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+<<<<<<< HEAD
+		// TODO Auto-generated method stub
+=======
 		Scanner input = new Scanner(System.in);
 		String weapon = null;
 		System.out.println("Name your animal:");
@@ -49,6 +52,7 @@ public class main {
 			
 		}
 
+>>>>>>> 386d8c94a0a4a6f7335e9fda1533d93b013f7992
 	}
 
 }
