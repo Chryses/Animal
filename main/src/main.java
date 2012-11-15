@@ -11,17 +11,18 @@ public class main {
 		String weapon = null;
 		System.out.println("Name your animal:");
 		String name = input.next();
+		Animal victim = null;
 		
 		System.out.println("Choose type: ");
 		System.out.println("1. Regular animal");
 		System.out.println("2. Armoured animal");
 		int animalType = input.nextInt();
 		switch (animalType){
-		case 1:
-			Animal victim = new Animal(name);
-			break;
+		case 1:{
+			victim = new Animal(name);
+			break;}
 		case 2:
-			ArmouredAnimal victim = new ArmouredAnimal(name);
+			victim = new ArmouredAnimal(name);
 			break;
 			default:
 				break;
